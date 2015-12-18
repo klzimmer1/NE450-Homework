@@ -1,0 +1,62 @@
+Bare Plutonium Sphere at 95.5% enrichment of Pu-240 (Jezebel)
+c
+c      Kelly Zimmer
+c
+c      Rev.0.10.Decemeber.2015
+c
+c      Homework Problem 5.Pt1
+c
+c      ---------------------------------------------
+c
+c      Start of Cards
+c
+c      Cell Cards
+c
+c
+1      1  -15.61  -1  imp:n=1   $Density of the Plutonium Sphere
+c
+c 
+2      0    1         imp:n=0   $Void
+c
+c      
+c      End of Cell Cards 
+c
+
+c      
+c      Surface Cards
+c
+c      Geometry
+c
+1      so   5.9500
+c
+c      End of Source Geometry
+c
+c      End of Surface Cards 
+
+c      Data Cards
+c
+c
+Mode n
+c
+c      End of Physics
+c
+c      Source
+c
+c      Criticality Control Cards
+c
+KCODE      3000   1.0  80  110
+KSRC      0 0 0
+c
+c      End of Source
+c
+c      Materials
+c
+m1      94240.   -4.5  94238.  -95.5
+c
+c      End of Materials
+c
+c      End of Cards
+c
+c      ----------------------------
+print
+  
