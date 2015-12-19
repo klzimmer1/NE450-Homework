@@ -1,0 +1,74 @@
+Uranium Sphere at 93.5% enrichment U-235w/Graphite (Carbon) Reflector
+c
+c      Kelly Zimmer
+c
+c      Rev.0.18.Decemeber.2015
+c
+c      Homework Problem 14
+c
+c      ---------------------------------------------
+c
+c      Start of Cards
+c
+c      Cell Cards
+c
+c
+1      1  -18.8  -1  imp:n=1   $Density of the Uranium Sphere
+c
+2      2    -2.267   1 -2    imp:n=1    $Density of Graphite (Carbon) Sphere 
+c 
+3      0    2          imp:n=0   $Void
+c
+c      
+c      End of Cell Cards 
+c
+
+c      
+c      Surface Cards
+c
+c      Geometry
+c
+1       so   8.72500   $Uranium Sphere
+c
+2       so    8.847    $Graphite Sphere 
+c
+C
+c      End of Source Geometry
+c
+c      End of Surface Cards 
+
+c      Data Cards
+c
+c
+Mode n
+c
+c      End of Physics
+c
+c      Source
+c
+c      Criticality Control Cards
+c
+KCODE        1000   1.0  30  130
+c
+KSRC      0 0 0
+c      End of Source
+c
+c      Materials
+c
+c      Uranium
+c
+m1      92235.66c   -93.5  92238.66c  -6.5
+c
+c
+c      Graphite
+c
+m2      6012   -1.0   
+c
+c
+c      End of Materials
+c
+c      End of Cards
+c
+c      ----------------------------
+print
+  
