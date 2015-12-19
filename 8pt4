@@ -1,0 +1,72 @@
+Plutonium Sphere at 20% enrichment of Pu-240w/Beryllium Shell
+c
+c      Kelly Zimmer
+c
+c      Rev.0.11.Decemeber.2015
+c
+c      Homework Problem 8Pt3
+c
+c      ---------------------------------------------
+c
+c      Start of Cards
+c
+c      Cell Cards
+c
+c
+1      1  -15.73  -1  imp:n=1   $Density of the Plutonium Sphere
+c
+2      2    -1.85   1 -2    imp:n=1    $Density of Beryllium Sphere 
+c 
+3      0    2          imp:n=0   $Void
+c
+c      
+c      End of Cell Cards 
+c
+
+c      
+c      Surface Cards
+c
+c      Geometry
+c
+1       so   5.9250    $Plutonium Sphere
+c
+2       so   5.9377   $Beryllium Sphere 
+c
+c      End of Source Geometry
+c
+c      End of Surface Cards 
+
+c      Data Cards
+c
+c
+Mode n
+c
+c      End of Physics
+c
+c      Source
+c
+c      Criticality Control Cards
+c
+KCODE        1000   1.0  30  130
+KSRC          0 0 0
+c
+c      End of Source
+c
+c      Materials
+c
+c      Plutonium
+c
+m1      94240.   -4.5  94238.  -95.5
+c
+c
+c      Beryllium
+c
+m2      5010.66c   1.0  
+c
+c      End of Materials
+c
+c      End of Cards
+c
+c      ----------------------------
+print
+  
