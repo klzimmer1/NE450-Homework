@@ -1,0 +1,84 @@
+Bare Plutonium Cylinder at 100% Pu-239
+c 
+c      Kelly Zimmer
+c
+c      Rev.0.12.Dec.2015
+c
+c      Homework Problem 7
+c
+c      ----------------------------------------------
+c
+c      Start of Cards
+c
+c      Cell Cards
+c
+c      
+100      1  -15.8  -10  11 -12  imp:n=1 $Density of Plutonium Cylinder
+c
+c 
+c 
+150      0   10:-11:12   imp:n=0      $Void
+c
+c 
+c      End of Cell Cards
+c 
+c
+
+c 
+c 
+c      Start of Surface Cards
+c
+c 
+c      Geometry
+c 
+c
+10      CZ  4.850   $Cylinder Radius
+c 
+11     PZ   0   $Bottom
+c 
+12     PZ   17.273  $Top
+c
+c
+c      End of Source Geometry
+c
+c
+c      End of Surface Cards
+c
+c
+
+c
+c     Data Cards
+c
+c
+c
+c
+MODE n
+c
+c
+c
+c      End of Physics
+c
+c
+c      Source
+c
+c
+c      
+KCODE      1000  1.0  15  115
+KSRC    0 0 8.6 
+c
+c
+c      End of Source
+c
+c
+c      Materials
+c
+c
+m1     94239.66c   1.0
+c
+c
+c      End of Materials
+c
+c
+c      End of Cards
+c
+c      ---------------------------------
