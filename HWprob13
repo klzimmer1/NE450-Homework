@@ -1,0 +1,73 @@
+Uranium cylinder w/10.90% Enriched U=235
+c 
+c      Kelly Zimmer
+c 
+c      Rev.0.19.December.2015
+c 
+c      Homewrork Problem 13
+c 
+c --------------------------------------------
+c 
+c      Start of Cards
+c
+c      Cell Cards
+c
+1      1 -18.63  -1 2 -3 imp:n=1  $Density of Cylinder with Uranium
+c 
+2      0  -4  #1 imp:n=1
+c 
+3      0  4  imp:n=0  $void
+c 
+c      Start of Cards
+c
+c      End of Cell Cards 
+c
+
+c      
+c      Surface Cards
+c
+c      Geometry
+c
+1      cy   26.65
+c
+2      py    0
+c 
+3      py    119.392
+c 
+4      so     130
+c 
+c      End of Source Geometry
+c
+c      End of Surface Cards 
+
+c      Data Cards
+c
+c
+Mode n
+c
+c      End of Physics
+c
+c      Source
+c
+c      Criticality Control Cards
+c
+KCODE      10000   0.8  30  90
+SDEF      AXS 0 1 0  POS  0 60 0  EXT D1 RAD D2
+c 
+SI1      55
+c
+SI2      .1  26 
+c
+c      End of Source
+c
+c      Materials
+c
+m1      92235.   -10.9  92238.  -89.1
+c
+c      End of Materials
+c
+c      End of Cards
+c
+c      ----------------------------
+print
+     
